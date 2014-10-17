@@ -33,3 +33,10 @@
 <% @glyphs.each do |name, value|
         selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
 .icon<%= selector %>:before { content: "\<%= value[:codepoint].to_s(16) %>"; }<% end %>
+
+
+// icon variables
+<% @glyphs.each do |name, value|
+        selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+$hi-icon-<%= selector[1..-1] %>: "\<%= value[:codepoint].to_s(16) %>";<% end %>
+
