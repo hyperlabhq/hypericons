@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "hypericons";
+  src: url("/fonts/hypericons.eot");
+  src: url("/fonts/hypericons.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/hypericons.woff") format("woff"),
+       url("/fonts/hypericons.ttf") format("truetype"),
+       url("/fonts/hypericons.svg#hypericons") format("svg");
+      font-weight: normal;
+      font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "hypericons";
+    src: url("hypericons.svg#hypericons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon:before {
+  display: inline-block;
+  font-family: "hypericons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+.icon.spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+
+.icon.angle-down:before { content: "\f13c"; }
+.icon.apple:before { content: "\f101"; }
+.icon.arrow-left:before { content: "\f115"; }
+.icon.at:before { content: "\f133"; }
+.icon.auth:before { content: "\f154"; }
+.icon.behance:before { content: "\f102"; }
+.icon.bitbucket:before { content: "\f103"; }
+.icon.calendar:before { content: "\f13d"; }
+.icon.delete:before { content: "\f13e"; }
+.icon.digg:before { content: "\f104"; }
+.icon.done:before { content: "\f13f"; }
+.icon.douban:before { content: "\f116"; }
+.icon.dribbble:before { content: "\f105"; }
+.icon.dropbox:before { content: "\f131"; }
+.icon.edit:before { content: "\f12b"; }
+.icon.evernote:before { content: "\f155"; }
+.icon.external-link:before { content: "\f140"; }
+.icon.facebook:before { content: "\f106"; }
+.icon.female:before { content: "\f141"; }
+.icon.file-audio:before { content: "\f158"; }
+.icon.file-code:before { content: "\f159"; }
+.icon.file-file:before { content: "\f15e"; }
+.icon.file-image:before { content: "\f15a"; }
+.icon.file-pdf:before { content: "\f15b"; }
+.icon.file-text:before { content: "\f15c"; }
+.icon.file-video:before { content: "\f15d"; }
+.icon.filter:before { content: "\f142"; }
+.icon.github:before { content: "\f143"; }
+.icon.google:before { content: "\f107"; }
+.icon.google-drive:before { content: "\f108"; }
+.icon.google-plus:before { content: "\f109"; }
+.icon.heart:before { content: "\f12d"; }
+.icon.home:before { content: "\f144"; }
+.icon.like:before { content: "\f145"; }
+.icon.linkedin:before { content: "\f100"; }
+.icon.male:before { content: "\f146"; }
+.icon.map:before { content: "\f147"; }
+.icon.menu:before { content: "\f148"; }
+.icon.more:before { content: "\f130"; }
+.icon.outlook:before { content: "\f149"; }
+.icon.paw:before { content: "\f10a"; }
+.icon.phone:before { content: "\f12e"; }
+.icon.plus:before { content: "\f12c"; }
+.icon.pocket:before { content: "\f156"; }
+.icon.qq:before { content: "\f10b"; }
+.icon.qrcode:before { content: "\f153"; }
+.icon.reddit:before { content: "\f10c"; }
+.icon.refresh:before { content: "\f12a"; }
+.icon.remove:before { content: "\f14a"; }
+.icon.renren:before { content: "\f10d"; }
+.icon.reply:before { content: "\f12f"; }
+.icon.return:before { content: "\f14b"; }
+.icon.retweet:before { content: "\f138"; }
+.icon.rss:before { content: "\f14c"; }
+.icon.search:before { content: "\f119"; }
+.icon.settings:before { content: "\f129"; }
+.icon.share:before { content: "\f14d"; }
+.icon.stack-exchange:before { content: "\f14e"; }
+.icon.stack-overflow:before { content: "\f10e"; }
+.icon.tag:before { content: "\f14f"; }
+.icon.tencentweibo:before { content: "\f150"; }
+.icon.thumb-up:before { content: "\f139"; }
+.icon.todo:before { content: "\f151"; }
+.icon.toggle-off:before { content: "\f134"; }
+.icon.toggle-on:before { content: "\f135"; }
+.icon.twitter:before { content: "\f110"; }
+.icon.wechat:before { content: "\f111"; }
+.icon.weibo:before { content: "\f112"; }
+.icon.weixin:before { content: "\f132"; }
+.icon.windows:before { content: "\f113"; }
+.icon.xiaomi:before { content: "\f117"; }
+.icon.yahoo:before { content: "\f152"; }
+.icon.youtube-play:before { content: "\f114"; }

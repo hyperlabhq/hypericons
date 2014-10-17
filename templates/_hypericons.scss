@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "hypericons";
+  src: url("/fonts/hypericons.eot");
+  src: url("/fonts/hypericons.eot?#iefix") format("embedded-opentype"),
+       url("/fonts/hypericons.woff") format("woff"),
+       url("/fonts/hypericons.ttf") format("truetype"),
+       url("/fonts/hypericons.svg#hypericons") format("svg");
+      font-weight: normal;
+      font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "hypericons";
+    src: url("hypericons.svg#hypericons") format("svg");
+  }
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon:before {
+<%= glyph_properties %>
+}
+
+.icon.spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+<% @glyphs.each do |name, value|
+        selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+.icon<%= selector %>:before { content: "\<%= value[:codepoint].to_s(16) %>"; }<% end %>

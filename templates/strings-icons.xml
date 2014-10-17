@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<% @glyphs.each do |name, value|
+              selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+  <string name="icon_<%= selector[1..-1].gsub('-', '_') %>">&#x<%= value[:codepoint].to_s(16) %>;</string><% end %>
+</resources>

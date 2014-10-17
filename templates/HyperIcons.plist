@@ -1,0 +1,8 @@
+<plist version="1.0">
+<dict>
+<% @glyphs.each do |name, value|
+              selector = @options[:css_selector].sub('{{glyph}}', name.to_s) %>
+<key><%= selector[1..-1].gsub('-', '_') %></key>
+<string>&#x<%= value[:codepoint].to_s(16) %>;</string><% end %>
+</dict>
+</plist>
