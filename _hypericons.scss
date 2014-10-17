@@ -43,6 +43,7 @@
 
 
 .icon.angle-down:before { content: "\f13c"; }
+.icon.angle-right:before { content: "\f15f"; }
 .icon.apple:before { content: "\f101"; }
 .icon.arrow-left:before { content: "\f115"; }
 .icon.at:before { content: "\f133"; }
@@ -120,6 +121,7 @@
 // icon variables
 
 $hi-icon-angle-down: "\f13c";
+$hi-icon-angle-right: "\f15f";
 $hi-icon-apple: "\f101";
 $hi-icon-arrow-left: "\f115";
 $hi-icon-at: "\f133";

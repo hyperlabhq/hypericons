@@ -2,6 +2,7 @@
 <resources>
 
   <string name="icon_angle_down">&#xf13c;</string>
+  <string name="icon_angle_right">&#xf15f;</string>
   <string name="icon_apple">&#xf101;</string>
   <string name="icon_arrow_left">&#xf115;</string>
   <string name="icon_at">&#xf133;</string>

@@ -3,6 +3,8 @@
 
 <key>angle_down</key>
 <string>&#xf13c;</string>
+<key>angle_right</key>
+<string>&#xf15f;</string>
 <key>apple</key>
 <string>&#xf101;</string>
 <key>arrow_left</key>
