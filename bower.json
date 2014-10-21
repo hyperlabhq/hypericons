@@ -1,0 +1,21 @@
+{
+  "name": "hypericons",
+  "version": "0.0.1",
+  "homepage": "https://github.com/hyperlinkapp/hypericons",
+  "authors": [
+    "Chunliang Lyu <hi@chunlianglyu.com>"
+  ],
+  "description": "Icon fonts used on https://hyperlinkapp.com/.",
+  "main": "_hypericons.scss",
+  "keywords": [
+    "icons"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
