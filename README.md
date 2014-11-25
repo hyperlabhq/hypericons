@@ -4,9 +4,9 @@ Custom font icons used by Hyperlink projects.
 ## Where the icons come from?
 The icons are mostly "borrowed" from other great icon collections, including:
 
-- Most from FontAwesome
+- Most from [FontAwesome](http://fontawesome.io/)
 
-- Some Chinese company icons are from FontDiao (xiaomi.svg, douban.svg)
+- Some Chinese company icons are from [FontDiao](https://github.com/lexrus/fontdiao) (xiaomi.svg, douban.svg)
 
 
 ## How to get the svg icon file?

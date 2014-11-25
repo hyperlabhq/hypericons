@@ -1,6 +1,8 @@
 <plist version="1.0">
 <dict>
 
+<key>angle_double_right</key>
+<string>&#xf162;</string>
 <key>angle_down</key>
 <string>&#xf13c;</string>
 <key>angle_right</key>
@@ -33,6 +35,10 @@
 <string>&#xf131;</string>
 <key>edit</key>
 <string>&#xf12b;</string>
+<key>email</key>
+<string>&#xf163;</string>
+<key>envelope</key>
+<string>&#xf164;</string>
 <key>evernote</key>
 <string>&#xf155;</string>
 <key>external_link</key>

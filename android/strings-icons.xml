@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+  <string name="icon_angle_double_right">&#xf162;</string>
   <string name="icon_angle_down">&#xf13c;</string>
   <string name="icon_angle_right">&#xf15f;</string>
   <string name="icon_apple">&#xf101;</string>
@@ -17,6 +18,8 @@
   <string name="icon_dribbble">&#xf105;</string>
   <string name="icon_dropbox">&#xf131;</string>
   <string name="icon_edit">&#xf12b;</string>
+  <string name="icon_email">&#xf163;</string>
+  <string name="icon_envelope">&#xf164;</string>
   <string name="icon_evernote">&#xf155;</string>
   <string name="icon_external_link">&#xf140;</string>
   <string name="icon_facebook">&#xf106;</string>
