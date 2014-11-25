@@ -39,3 +39,13 @@ let iconValue: String = dict.objectForKey("twitter") as String
 
 Then you can use the `iconValue` as UILabel text, and set font to `hypericons`.
 
+
+## Other notes
+
+Convert SVG to high quality PNG:
+(suppose have selected some svg icons in `selected` dir)
+
+```
+\ls -1 selected | xargs -I{} inkscape -f selected/{} -e selected.png/{}.png -w 512 -h 512
+```
+
