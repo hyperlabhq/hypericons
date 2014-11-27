@@ -22,6 +22,11 @@ font files and scss/Android/iOS assert files.
 
 ## Usage
 
+### SCSS
+You can use the scss by include the line `@import "hypericons"` in your scss file.
+If you do not want to include the font-face definition, set `$include-font-face: false` before the import.
+You can also set the `$font-path` variable.
+
 ### Android
 
 The file `strings-icons.xml` is used to provide icon values.

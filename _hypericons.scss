@@ -1,20 +1,23 @@
+$include-font-face: true !default;
 $font-path: '/fonts' !default;
 
-@font-face {
-  font-family: "hypericons";
-  src: url("#{$font-path}/hypericons.eot");
-  src: url("#{$font-path}/hypericons.eot?#iefix") format("embedded-opentype"),
-       url("#{$font-path}/hypericons.woff") format("woff"),
-       url("#{$font-path}/hypericons.ttf") format("truetype"),
-       url("#{$font-path}/hypericons.svg#hypericons") format("svg");
-      font-weight: normal;
-      font-style: normal;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio:0) {
+@if $include-font-face {
   @font-face {
     font-family: "hypericons";
-    src: url("#{$font-path}/hypericons.svg#hypericons") format("svg");
+    src: url("#{$font-path}/hypericons.eot");
+    src: url("#{$font-path}/hypericons.eot?#iefix") format("embedded-opentype"),
+         url("#{$font-path}/hypericons.woff") format("woff"),
+         url("#{$font-path}/hypericons.ttf") format("truetype"),
+         url("#{$font-path}/hypericons.svg#hypericons") format("svg");
+        font-weight: normal;
+        font-style: normal;
+  }
+  
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: "hypericons";
+      src: url("#{$font-path}/hypericons.svg#hypericons") format("svg");
+    }
   }
 }
 
