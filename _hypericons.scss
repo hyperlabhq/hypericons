@@ -47,166 +47,172 @@ $font-path: '/fonts' !default;
 }
 
 
-.icon.angle-double-right:before { content: "\f162"; }
-.icon.angle-down:before { content: "\f13c"; }
-.icon.angle-right:before { content: "\f15f"; }
-.icon.apple:before { content: "\f101"; }
-.icon.arrow-left:before { content: "\f115"; }
-.icon.at:before { content: "\f133"; }
-.icon.auth:before { content: "\f154"; }
-.icon.behance:before { content: "\f102"; }
-.icon.bitbucket:before { content: "\f103"; }
-.icon.calendar:before { content: "\f13d"; }
-.icon.delete:before { content: "\f13e"; }
-.icon.digg:before { content: "\f104"; }
-.icon.done:before { content: "\f13f"; }
-.icon.douban:before { content: "\f116"; }
-.icon.dribbble:before { content: "\f105"; }
-.icon.dropbox:before { content: "\f131"; }
-.icon.edit:before { content: "\f12b"; }
-.icon.email:before { content: "\f163"; }
-.icon.envelope:before { content: "\f164"; }
-.icon.evernote:before { content: "\f155"; }
-.icon.external-link:before { content: "\f140"; }
-.icon.facebook:before { content: "\f106"; }
-.icon.female:before { content: "\f141"; }
-.icon.file-audio:before { content: "\f158"; }
-.icon.file-code:before { content: "\f159"; }
-.icon.file-file:before { content: "\f15e"; }
-.icon.file-image:before { content: "\f15a"; }
-.icon.file-pdf:before { content: "\f15b"; }
-.icon.file-text:before { content: "\f15c"; }
-.icon.file-video:before { content: "\f15d"; }
-.icon.filter:before { content: "\f142"; }
-.icon.folder:before { content: "\f161"; }
-.icon.github:before { content: "\f143"; }
-.icon.google:before { content: "\f107"; }
-.icon.google-drive:before { content: "\f108"; }
-.icon.google-plus:before { content: "\f109"; }
-.icon.heart:before { content: "\f12d"; }
-.icon.home:before { content: "\f144"; }
-.icon.like:before { content: "\f145"; }
-.icon.linkedin:before { content: "\f100"; }
-.icon.male:before { content: "\f146"; }
-.icon.map:before { content: "\f147"; }
-.icon.menu:before { content: "\f148"; }
-.icon.more:before { content: "\f130"; }
-.icon.outlook:before { content: "\f149"; }
-.icon.paw:before { content: "\f10a"; }
-.icon.phone:before { content: "\f12e"; }
-.icon.plus:before { content: "\f12c"; }
-.icon.pocket:before { content: "\f156"; }
-.icon.qq:before { content: "\f10b"; }
-.icon.qrcode:before { content: "\f153"; }
-.icon.reddit:before { content: "\f10c"; }
-.icon.refresh:before { content: "\f12a"; }
-.icon.remove:before { content: "\f14a"; }
-.icon.renren:before { content: "\f10d"; }
-.icon.reply:before { content: "\f12f"; }
-.icon.return:before { content: "\f14b"; }
-.icon.retweet:before { content: "\f138"; }
-.icon.rss:before { content: "\f14c"; }
-.icon.search:before { content: "\f119"; }
-.icon.settings:before { content: "\f129"; }
-.icon.share:before { content: "\f14d"; }
-.icon.stack-exchange:before { content: "\f14e"; }
-.icon.stack-overflow:before { content: "\f10e"; }
-.icon.tag:before { content: "\f14f"; }
-.icon.tencentweibo:before { content: "\f150"; }
-.icon.thumb-up:before { content: "\f139"; }
-.icon.todo:before { content: "\f151"; }
-.icon.toggle-off:before { content: "\f134"; }
-.icon.toggle-on:before { content: "\f135"; }
-.icon.twitter:before { content: "\f110"; }
-.icon.webpage:before { content: "\f160"; }
-.icon.wechat:before { content: "\f111"; }
-.icon.weibo:before { content: "\f112"; }
-.icon.weixin:before { content: "\f132"; }
-.icon.windows:before { content: "\f113"; }
-.icon.xiaomi:before { content: "\f117"; }
-.icon.yahoo:before { content: "\f152"; }
-.icon.youtube-play:before { content: "\f114"; }
+.icon.angle-double-right:before { content: "\f100"; }
+.icon.angle-down:before { content: "\f101"; }
+.icon.angle-right:before { content: "\f102"; }
+.icon.apple:before { content: "\f103"; }
+.icon.arrow-left:before { content: "\f104"; }
+.icon.at:before { content: "\f105"; }
+.icon.auth:before { content: "\f106"; }
+.icon.behance:before { content: "\f107"; }
+.icon.bitbucket:before { content: "\f108"; }
+.icon.book:before { content: "\f109"; }
+.icon.calendar:before { content: "\f10a"; }
+.icon.delete:before { content: "\f10b"; }
+.icon.digg:before { content: "\f10c"; }
+.icon.done:before { content: "\f10d"; }
+.icon.douban:before { content: "\f10e"; }
+.icon.dribbble:before { content: "\f10f"; }
+.icon.dropbox:before { content: "\f110"; }
+.icon.edit:before { content: "\f111"; }
+.icon.email:before { content: "\f112"; }
+.icon.envelope:before { content: "\f113"; }
+.icon.evernote:before { content: "\f114"; }
+.icon.external-link:before { content: "\f115"; }
+.icon.facebook:before { content: "\f116"; }
+.icon.female:before { content: "\f117"; }
+.icon.file-audio:before { content: "\f118"; }
+.icon.file-code:before { content: "\f119"; }
+.icon.file-file:before { content: "\f11a"; }
+.icon.file-image:before { content: "\f11b"; }
+.icon.file-pdf:before { content: "\f11c"; }
+.icon.file-text:before { content: "\f11d"; }
+.icon.file-video:before { content: "\f11e"; }
+.icon.filter:before { content: "\f11f"; }
+.icon.folder:before { content: "\f120"; }
+.icon.github:before { content: "\f121"; }
+.icon.google:before { content: "\f122"; }
+.icon.google-drive:before { content: "\f123"; }
+.icon.google-plus:before { content: "\f124"; }
+.icon.heart:before { content: "\f125"; }
+.icon.history:before { content: "\f126"; }
+.icon.home:before { content: "\f127"; }
+.icon.like:before { content: "\f128"; }
+.icon.linkedin:before { content: "\f129"; }
+.icon.male:before { content: "\f12a"; }
+.icon.map:before { content: "\f12b"; }
+.icon.menu:before { content: "\f12c"; }
+.icon.more:before { content: "\f12d"; }
+.icon.outlook:before { content: "\f12e"; }
+.icon.paw:before { content: "\f12f"; }
+.icon.phone:before { content: "\f130"; }
+.icon.plus:before { content: "\f131"; }
+.icon.pocket:before { content: "\f132"; }
+.icon.qq:before { content: "\f133"; }
+.icon.qrcode:before { content: "\f134"; }
+.icon.reddit:before { content: "\f135"; }
+.icon.refresh:before { content: "\f136"; }
+.icon.remove:before { content: "\f137"; }
+.icon.renren:before { content: "\f138"; }
+.icon.reply:before { content: "\f139"; }
+.icon.return:before { content: "\f13a"; }
+.icon.retweet:before { content: "\f13b"; }
+.icon.rss:before { content: "\f13c"; }
+.icon.search:before { content: "\f13d"; }
+.icon.settings:before { content: "\f13e"; }
+.icon.share:before { content: "\f13f"; }
+.icon.stack-exchange:before { content: "\f140"; }
+.icon.stack-overflow:before { content: "\f141"; }
+.icon.star-full:before { content: "\f142"; }
+.icon.tag:before { content: "\f143"; }
+.icon.tencentweibo:before { content: "\f144"; }
+.icon.thumb-up:before { content: "\f145"; }
+.icon.todo:before { content: "\f146"; }
+.icon.toggle-off:before { content: "\f147"; }
+.icon.toggle-on:before { content: "\f148"; }
+.icon.twitter:before { content: "\f149"; }
+.icon.webpage:before { content: "\f14a"; }
+.icon.wechat:before { content: "\f14b"; }
+.icon.weibo:before { content: "\f14c"; }
+.icon.weixin:before { content: "\f14d"; }
+.icon.windows:before { content: "\f14e"; }
+.icon.xiaomi:before { content: "\f14f"; }
+.icon.yahoo:before { content: "\f150"; }
+.icon.youtube-play:before { content: "\f151"; }
 
 
 // icon variables
 
-$hi-icon-angle-double-right: "\f162";
-$hi-icon-angle-down: "\f13c";
-$hi-icon-angle-right: "\f15f";
-$hi-icon-apple: "\f101";
-$hi-icon-arrow-left: "\f115";
-$hi-icon-at: "\f133";
-$hi-icon-auth: "\f154";
-$hi-icon-behance: "\f102";
-$hi-icon-bitbucket: "\f103";
-$hi-icon-calendar: "\f13d";
-$hi-icon-delete: "\f13e";
-$hi-icon-digg: "\f104";
-$hi-icon-done: "\f13f";
-$hi-icon-douban: "\f116";
-$hi-icon-dribbble: "\f105";
-$hi-icon-dropbox: "\f131";
-$hi-icon-edit: "\f12b";
-$hi-icon-email: "\f163";
-$hi-icon-envelope: "\f164";
-$hi-icon-evernote: "\f155";
-$hi-icon-external-link: "\f140";
-$hi-icon-facebook: "\f106";
-$hi-icon-female: "\f141";
-$hi-icon-file-audio: "\f158";
-$hi-icon-file-code: "\f159";
-$hi-icon-file-file: "\f15e";
-$hi-icon-file-image: "\f15a";
-$hi-icon-file-pdf: "\f15b";
-$hi-icon-file-text: "\f15c";
-$hi-icon-file-video: "\f15d";
-$hi-icon-filter: "\f142";
-$hi-icon-folder: "\f161";
-$hi-icon-github: "\f143";
-$hi-icon-google: "\f107";
-$hi-icon-google-drive: "\f108";
-$hi-icon-google-plus: "\f109";
-$hi-icon-heart: "\f12d";
-$hi-icon-home: "\f144";
-$hi-icon-like: "\f145";
-$hi-icon-linkedin: "\f100";
-$hi-icon-male: "\f146";
-$hi-icon-map: "\f147";
-$hi-icon-menu: "\f148";
-$hi-icon-more: "\f130";
-$hi-icon-outlook: "\f149";
-$hi-icon-paw: "\f10a";
-$hi-icon-phone: "\f12e";
-$hi-icon-plus: "\f12c";
-$hi-icon-pocket: "\f156";
-$hi-icon-qq: "\f10b";
-$hi-icon-qrcode: "\f153";
-$hi-icon-reddit: "\f10c";
-$hi-icon-refresh: "\f12a";
-$hi-icon-remove: "\f14a";
-$hi-icon-renren: "\f10d";
-$hi-icon-reply: "\f12f";
-$hi-icon-return: "\f14b";
-$hi-icon-retweet: "\f138";
-$hi-icon-rss: "\f14c";
-$hi-icon-search: "\f119";
-$hi-icon-settings: "\f129";
-$hi-icon-share: "\f14d";
-$hi-icon-stack-exchange: "\f14e";
-$hi-icon-stack-overflow: "\f10e";
-$hi-icon-tag: "\f14f";
-$hi-icon-tencentweibo: "\f150";
-$hi-icon-thumb-up: "\f139";
-$hi-icon-todo: "\f151";
-$hi-icon-toggle-off: "\f134";
-$hi-icon-toggle-on: "\f135";
-$hi-icon-twitter: "\f110";
-$hi-icon-webpage: "\f160";
-$hi-icon-wechat: "\f111";
-$hi-icon-weibo: "\f112";
-$hi-icon-weixin: "\f132";
-$hi-icon-windows: "\f113";
-$hi-icon-xiaomi: "\f117";
-$hi-icon-yahoo: "\f152";
-$hi-icon-youtube-play: "\f114";
+$hi-icon-angle-double-right: "\f100";
+$hi-icon-angle-down: "\f101";
+$hi-icon-angle-right: "\f102";
+$hi-icon-apple: "\f103";
+$hi-icon-arrow-left: "\f104";
+$hi-icon-at: "\f105";
+$hi-icon-auth: "\f106";
+$hi-icon-behance: "\f107";
+$hi-icon-bitbucket: "\f108";
+$hi-icon-book: "\f109";
+$hi-icon-calendar: "\f10a";
+$hi-icon-delete: "\f10b";
+$hi-icon-digg: "\f10c";
+$hi-icon-done: "\f10d";
+$hi-icon-douban: "\f10e";
+$hi-icon-dribbble: "\f10f";
+$hi-icon-dropbox: "\f110";
+$hi-icon-edit: "\f111";
+$hi-icon-email: "\f112";
+$hi-icon-envelope: "\f113";
+$hi-icon-evernote: "\f114";
+$hi-icon-external-link: "\f115";
+$hi-icon-facebook: "\f116";
+$hi-icon-female: "\f117";
+$hi-icon-file-audio: "\f118";
+$hi-icon-file-code: "\f119";
+$hi-icon-file-file: "\f11a";
+$hi-icon-file-image: "\f11b";
+$hi-icon-file-pdf: "\f11c";
+$hi-icon-file-text: "\f11d";
+$hi-icon-file-video: "\f11e";
+$hi-icon-filter: "\f11f";
+$hi-icon-folder: "\f120";
+$hi-icon-github: "\f121";
+$hi-icon-google: "\f122";
+$hi-icon-google-drive: "\f123";
+$hi-icon-google-plus: "\f124";
+$hi-icon-heart: "\f125";
+$hi-icon-history: "\f126";
+$hi-icon-home: "\f127";
+$hi-icon-like: "\f128";
+$hi-icon-linkedin: "\f129";
+$hi-icon-male: "\f12a";
+$hi-icon-map: "\f12b";
+$hi-icon-menu: "\f12c";
+$hi-icon-more: "\f12d";
+$hi-icon-outlook: "\f12e";
+$hi-icon-paw: "\f12f";
+$hi-icon-phone: "\f130";
+$hi-icon-plus: "\f131";
+$hi-icon-pocket: "\f132";
+$hi-icon-qq: "\f133";
+$hi-icon-qrcode: "\f134";
+$hi-icon-reddit: "\f135";
+$hi-icon-refresh: "\f136";
+$hi-icon-remove: "\f137";
+$hi-icon-renren: "\f138";
+$hi-icon-reply: "\f139";
+$hi-icon-return: "\f13a";
+$hi-icon-retweet: "\f13b";
+$hi-icon-rss: "\f13c";
+$hi-icon-search: "\f13d";
+$hi-icon-settings: "\f13e";
+$hi-icon-share: "\f13f";
+$hi-icon-stack-exchange: "\f140";
+$hi-icon-stack-overflow: "\f141";
+$hi-icon-star-full: "\f142";
+$hi-icon-tag: "\f143";
+$hi-icon-tencentweibo: "\f144";
+$hi-icon-thumb-up: "\f145";
+$hi-icon-todo: "\f146";
+$hi-icon-toggle-off: "\f147";
+$hi-icon-toggle-on: "\f148";
+$hi-icon-twitter: "\f149";
+$hi-icon-webpage: "\f14a";
+$hi-icon-wechat: "\f14b";
+$hi-icon-weibo: "\f14c";
+$hi-icon-weixin: "\f14d";
+$hi-icon-windows: "\f14e";
+$hi-icon-xiaomi: "\f14f";
+$hi-icon-yahoo: "\f150";
+$hi-icon-youtube-play: "\f151";
 
